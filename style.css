@@ -145,3 +145,31 @@ button {
     text-align: center;
     font-size: 18px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 64px 0;
+}
+
+.quote-section p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-section a {
+    text-decoration: none;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
