@@ -208,3 +208,18 @@ h3 {
     color:#e5e7eb;
     border: solid 2px #e5e7eb;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 16px 0;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: #e5e7eb;
+}
